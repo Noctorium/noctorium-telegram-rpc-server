@@ -7,7 +7,7 @@ import { createCipheriv, createDecipheriv, createHmac, randomBytes, timingSafeEq
  */
 
 export const SERVICE = "telegram"
-export const DASHBOARD = process.env.SERVICE_DASHBOARD_URL ?? "https://service.noctorium.xyz/dashboard"
+export const DASHBOARD = process.env.SERVICE_DASHBOARD_URL ?? "https://account.noctorium.xyz/dashboard"
 
 let connection: NeonQueryFunction<false, false> | null = null
 export function db(): NeonQueryFunction<false, false> {

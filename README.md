@@ -7,7 +7,7 @@ the listener's computer: any Noctorium signed in to their Noctorium account tell
 ## How it fits
 
 ```
-Noctorium app ──POST /api/now-playing──▶ account service (service.noctorium.xyz)
+Noctorium app ──POST /api/now-playing──▶ stats service (stats.noctorium.xyz)
                                               └──POST /api/update (RPC_SECRET)──▶ this server ──▶ Telegram bio
 ```
 
